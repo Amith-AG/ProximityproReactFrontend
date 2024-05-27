@@ -1,0 +1,73 @@
+.app__hero {
+  width: 100%;
+  padding: 1.75rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+}
+
+.app__hero-desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+}
+.app__hero-desc h1 {
+  font-size: 55px;
+  color: rgba(40, 4, 141, 0.933);
+  text-align: center;
+}
+
+.app__hero-logo {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8px;
+  justify-content: center;
+  align-items: center;
+}
+.app__hero-logo img {
+  width: 84px;
+  height: 84px;
+  animation: rotation 1s infinite linear;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.app__hero-logo h2 {
+  font-weight: 600;
+  font-size: 55px;
+}
+
+#register {
+  background-color: black;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 0.45rem;
+  font-size: 15px;
+}
+.app__hero-button #auth {
+  background-color: #ffffff;
+  color: black;
+  border: 1px solid rgba(155, 150, 150, 0.8);
+  border-radius: 5px;
+  padding: 0.45rem;
+  font-size: 15px;
+}
+
+@media (max-width: 640px) {
+  #hero-img-1 {
+    display: none;
+  }
+  #hero-img-2 {
+    display: none;
+  }
+}

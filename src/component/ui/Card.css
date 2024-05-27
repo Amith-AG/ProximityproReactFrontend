@@ -1,0 +1,53 @@
+.app__card {
+  border-radius: 20px;
+  box-shadow: 0 0 3px #ccc;
+  border: 1px solid rgb(126, 124, 124);
+  max-width: 250px;
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+}
+.app__card img {
+  max-width: 250px;
+  max-height: 200px;
+}
+.app__card-body {
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+.app__card-body h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.app__card-body button {
+  padding: 2px;
+  min-width: 60px;
+  height: 35px;
+  align-self: center;
+  border-radius: 10px;
+  color: white;
+  background-color: black;
+  border: none;
+}
+.app__card-role {
+  display: inline-flex;
+  gap: 5px;
+}
+.app__card-role p {
+  background-color: skyblue;
+  padding: 5px;
+  border-radius: 0.75rem;
+}
+
+.app__card-desc {
+  width: 100%;
+  text-align: initial;
+  font-size: medium;
+}
+.app__card-contact span {
+  font-size: small;
+}

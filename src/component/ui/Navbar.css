@@ -1,0 +1,39 @@
+.app__navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  background-color: white;
+  padding: 1rem 2rem;
+  box-shadow: 0 0 3px #ccc;
+  z-index: 10;
+}
+.app__navbar-logo {
+  display: flex;
+  gap: 0.75rem;
+  justify-content: center;
+  align-items: center;
+}
+.app__navbar-logo img {
+  width: 40px;
+  height: 40px;
+}
+
+.app__navbar-logo h1 {
+  font-weight: 500;
+}
+
+.app__navbar-logo span {
+  color: skyblue;
+}
+.app__navbar-links {
+  display: flex;
+  gap: 1.7rem;
+  list-style: none;
+  font-size: small;
+  text-transform: capitalize;
+  @media screen and (max-width: 900px) {
+    display: none;
+  }
+}
